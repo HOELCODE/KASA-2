@@ -1,0 +1,58 @@
+.banner-commun {
+    margin-top: 30px;
+    height: 223px;
+    color: #fff;
+    border-radius: 25px;
+    position: relative;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 25px; 
+}
+
+.banner-home {
+    background: url("../assets/BackgroundHome.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+}
+
+.banner-about {
+    background: url("../assets/Background.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+}
+
+.banner-home h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+    .banner-home h1 { 
+        font-size: 1rem; 
+    }
+    .banner-home, .banner-about {
+        margin-top: 0px;
+        height: 111px;
+        background-position:left;
+    }
+    .banner-about, .banner-home, .banner-commun { 
+        border-radius: 10px; 
+    }
+}

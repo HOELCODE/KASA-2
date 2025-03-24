@@ -1,13 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import Test from "../pages/Test";
+import About from "../pages/About";
 import Shaping from "../layout/Shaping";
 
 const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/" element={<Shaping />}>
-        <Route index element={<Home />} /> 
+      <Route element={<Shaping />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
       </Route>
     </Routes>
   );
