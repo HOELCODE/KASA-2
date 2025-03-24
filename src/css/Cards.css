@@ -32,11 +32,20 @@
 
 .fiche-logement-cards img {
     width: 100%;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     height: 260px;
-    object-fit: cover;
+    object-fit: cover; 
 }
 
+.logement-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px; 
+}
 .fiche-logement-cards h3 {
     display: flex;
     font-size: 18px;
@@ -46,7 +55,6 @@
     color: white;
     position: absolute;
     bottom: 13px;
-    text-shadow: 0px 0px 10px #000;
 }
 
 .fiche-logement-cards:hover {
