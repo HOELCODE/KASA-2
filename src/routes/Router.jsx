@@ -3,6 +3,7 @@ import Shaping from "../layout/Shaping";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Card from "../pages/Card";
+import ErrorPage from "../pages/ErrorPage";
 
 const AppRouter = () => {
   return (
@@ -11,6 +12,7 @@ const AppRouter = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/logement/:id" element={<Card />} />
+        <Route path="*" element={<ErrorPage />} />
       </Route>
     </Routes>
   );
