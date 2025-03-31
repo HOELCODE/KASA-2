@@ -1,3 +1,8 @@
+/* About */
+
+.about {
+    padding: 20px 50px;
+}
 
 .collapse {
     display: flex;
@@ -69,5 +74,8 @@
     .visible.collapse ul {
         font-size: 12px;
         padding: 23px 7px 5px 11.5px; /* j'ai mis 5px en bas au lieu de 1.3px pour une question ésthétique */
+    }
+    .about {
+        padding: 0px 0px !important;
     }
 }
