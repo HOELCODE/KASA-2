@@ -11,7 +11,7 @@ const AppRouter = () => {
       <Route element={<Shaping />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/logement/:id" element={<Card />} />
+        <Route path="/accommodation/:id" element={<Card />} />
         <Route path="*" element={<ErrorPage />} />
       </Route>
     </Routes>

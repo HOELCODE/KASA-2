@@ -9,7 +9,7 @@ const Cards = () => {
             {datas.map((data) => {
                 return (
                     <div className="fiche-logement-cards" key={data.id}>
-                        <Link to={`/logement/${data.id}`}>
+                        <Link to={`/accommodation/${data.id}`}>
                             <div className="logement-overlay"></div>
                             <img src={data.cover} alt={data.title} />
                             <h3>{data.title}</h3>
@@ -17,7 +17,7 @@ const Cards = () => {
                     </div>
                 )
             }
-            )};
+            )}
         </div>
     )
 };

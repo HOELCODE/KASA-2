@@ -39,6 +39,7 @@
     background-color: #FF6060;
     color: white;
     border-radius: 10px;
+    font-weight: 700;
 }
 
 .div-etoiles {
@@ -55,7 +56,6 @@
     width: 93px;
     height: 52px;
     align-items: center;
-    text-shadow: 0px 0px 5px rgb(180, 166, 166);
 }
 
 .div-etoiles img {
@@ -63,11 +63,15 @@
     height: 64px;
     border-radius: 50%;
     margin-top: 15px;
-    box-shadow: 0px 0px 10px rgb(175, 136, 136);
 }
 
 .div-description {
     width: 100%;
+}
+
+.div-description h4 {
+    font-size: 18px;
+    font-weight: 500; 
 }
 
 .stars {
@@ -79,7 +83,6 @@
 
 .span1 {
     color: #FF6060;
-    text-shadow: 0px 0px 5px rgb(180, 166, 166);
 }
 
 .span2 {
@@ -91,6 +94,12 @@
     gap: 2rem;
     margin-top: 20px;
     width: 100%;
+}
+
+.collapse-logement span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
 }
 
 
